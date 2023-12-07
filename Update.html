@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Add Media</title>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="JS/jquery-3.6.0.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script type="text/javascript" src="JS/Update.js"></script>
+</head>
+
+<body>
+
+  <div class="form-container">
+    <h1>Update</h1>
+    <div class="row align-items-start">
+      <div class="col-2"></div>
+      <div class="col-8" style="text-align: left;">
+        <!-- Status message div -->
+        <div id="statusMessage" style="color: green;"></div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+
+    <form id="newAssetForm">
+      <div class="mb-3">
+        <label for="FileName" class="form-label">File Name</label>
+        <input type="text" class="form-control" id="FileName">
+      </div>
+
+      <div class="mb-3">
+        <label for="UserID" class="form-label">User Id</label>
+        <input type="string" class="form-control" id="UserID">
+      </div>
+
+      <div class="mb-3">
+        <label for="UserName" class="form-label">User Name</label>
+        <input type="text" class="form-control" id="UserName">
+      </div>
+
+      <button type="button" id="UpdateMedia" class="custom-btn custom-btn-blue">Update</button>
+    </form>
+
+    <button type="button" id="HomeButton" class="custom-btn custom-btn-green">Home</button>
+  </div>
+
+</body>
+
+</html>

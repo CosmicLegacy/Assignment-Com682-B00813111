@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register</title>
+
+    <!--  Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+
+    <!-- js -->
+    <script type="text/javascript" src="JS/jquery-3.6.0.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="JS/register.js"></script>
+</head>
+
+<body>
+    
+
+    <div class="form-container">
+        <div id="statusMessage" style="color: green;"></div>
+        <h1>Register</h1>
+    <div class="row align-items-start">
+    <div class="col-2"></div>
+    <div class="col-8" style="text-align: left;">
+        <!-- Status message div -->
+        <div id="statusMessage" style="color: green;"></div>
+    </div>
+    <div class="col-2"></div>
+    </div>
+    
+        <form id="newAssetForm">
+        <div class="mb-3">
+            <label for="UserName" class="form-label">UserName</label>
+            <input type="text" class="form-control" id="UserName">
+        </div>
+    
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            <input type="string" class="form-control" id="Password">
+            <button type="button" id="Register" class="custom-btn custom-btn-green">Register</button>
+            <button type="button" id="Back" class="custom-btn custom-btn-red">Back</button>
+        </div>
+</body>
+
+</html>
